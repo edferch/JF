@@ -1,0 +1,39 @@
+# Archivos específicos de Android y Gradle (Tus archivos actuales)
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Archivos de firmas y Keystores (¡No compartir públicamente!)
+# See https://flutter.dev/to/reference-keystore
+key.properties
+**/android/key.properties
+**/*.keystore
+**/*.jks
+
+# Archivos temporales y de compilación de Flutter/Dart
+# (Evita subir gigabytes de archivos basura temporales a GitHub)
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Archivos de configuración del editor (VS Code / Android Studio)
+.vscode/
+.idea/
+*.iml
+
+# Archivos de entorno y variables secretas (Cloudinary / APIs)
+.env
+.env*
+
+# Archivos de configuración de Firebase
+# (Descomenta quitando el '#' si decides hacer el repositorio público en algún momento)
+# android/app/google-services.json
+# lib/firebase_options.dart
